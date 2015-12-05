@@ -33,7 +33,7 @@ void move(Location& current_location, const QChar c, QSet<Location>& locations_v
   locations_visited.insert(current_location);
 }
 
-int main(int argc, char *argv[]) {
+int main(int /*argc*/, char * /*argv*/[]) {
   QFile input_file("input.txt");
 
   if (!input_file.open(QIODevice::ReadOnly)) {

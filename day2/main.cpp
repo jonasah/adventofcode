@@ -32,7 +32,7 @@ struct Present {
   }
 };
 
-int main(int argc, char *argv[]) {
+int main(int /*argc*/, char * /*argv*/[]) {
   QFile input_file("input.txt");
 
   if (!input_file.open(QIODevice::ReadOnly)) {
